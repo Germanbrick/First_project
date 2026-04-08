@@ -64,11 +64,11 @@ btn_OK = QPushButton('Ответить') # кнопка ответа
 res_button=QPushButton('Следующий вопрос')
 lb_Question = QLabel('В каком году была основана Москва?') # текст вопроса
 lb_Question_answ= QLabel('В каком году была основана Москва?') # текст вопроса в окне результата
-groupbox=QGroupBox("выберите ответ")
+groupbox=QGroupBox("Выберите ответ")
 rbtn_1 = QRadioButton('1147')
-rbtn_2 = QRadioButton('1242')
-rbtn_3 = QRadioButton('1861')
-rbtn_4 = QRadioButton('1943')
+rbtn_2 = QRadioButton('1235')
+rbtn_3 = QRadioButton('1775')
+rbtn_4 = QRadioButton('1942')
 buttonGroup = QButtonGroup()
 buttonGroup.addButton(rbtn_1)
 buttonGroup.addButton(rbtn_2)
